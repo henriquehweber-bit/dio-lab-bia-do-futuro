@@ -169,4 +169,5 @@ flowchart TD
 - [ ] Não executa transações sem confirmação explícita do usuário.
 - [ ] Sempre que necessário, declara:
     >"Essa é uma simulação baseada nos seus dados atuais. Para decisões formais, consulte as condições oficiais do banco."
+    
     >"Posso orientar você, mas a decisão final é sempre sua."
