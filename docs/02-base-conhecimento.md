@@ -4,12 +4,12 @@
 
 Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que server no Amif |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores ou seja dar continuidade a um atendimento mais eficiente, amigável e coerente com as necessidades e histórico do cliente. |
+| `perfil_investidor.json` | JSON | Não será usado pelo Amif, pois ele será um amigo íntimo do cliente que ajudará em sua saúde financeira. |
+| `produtos_financeiros.json` | JSON | Conhecer os produtos financeiros oferecidos pela instituição bancária para que possam ser explicados e recomendados de maneira eficiente para o cliente. |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e utilizar estas informações de forma didática para que consiga dar conselhos financeiros que atendam as reais necessidades dos clientes. |
 
 > [!TIP]
 > **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+A base perfil_investidor.json não será utilizada, por isso foi retirada das bases de dados do Amif. Isso ocorreu devido ao perfil do cliente que o produto atendrá, uma vez que está focado em ajudar as pessoas em sua saúde financeira. 
 
 ---
 
@@ -34,7 +34,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Existem duas possibilidades: injetar os dados diretamente no prompt ou carregar os arquivos via código, conforme o exemplo abaixo
 
 ---
 
