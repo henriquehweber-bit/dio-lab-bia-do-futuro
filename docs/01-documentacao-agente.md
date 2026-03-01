@@ -72,7 +72,7 @@ O objetivo é transformar o banco em parceiro ativo da estabilidade financeira d
 
 ## 2.1 Nome do Agente
 
-**Br@der**
+**Amif - Seu amigo financeitro**
 
 ---
 
