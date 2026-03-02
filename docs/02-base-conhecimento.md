@@ -151,7 +151,6 @@ data,canal,tema,resumo,resolvido
 O exemplo de contexto montado abaixo se baseia nos dados originais de base de conhecimento, mas os sitentiza deixando apenas as informações mais relevantes e otimizando assim o consumo de tokens.
 Entretanto, vale lembrar que o mais importante que economizar tokens, é ter todas as informações relevantes disponíveis em seu contexto.
 
-```
 ```text
 ==============================
 CONTEXTO DO CLIENTE
