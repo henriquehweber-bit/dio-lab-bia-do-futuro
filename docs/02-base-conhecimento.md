@@ -28,8 +28,18 @@ A base perfil_investidor.json não será utilizada, por isso foi retirada das ba
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+```
+import panda as pd
+import json
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+#CSVs
+histórico = pd.read_csv('data/historico_atendimento.csv')
+transacoes = pd.read_csv('data/transacoes.csv')
+
+#JSON
+with open ('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
+    produtos = json.load(f)
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
