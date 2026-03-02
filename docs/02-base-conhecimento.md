@@ -28,6 +28,9 @@ A base perfil_investidor.json não será utilizada, por isso foi retirada das ba
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+Existem duas possibilidades:
+1. Injetar os dados diretamente no prompt (Ctrl + C, Ctrl + V)
+2. Carregar os arquivos via código, conforme exemplo abaixo
 ```
 import panda as pd
 import json
