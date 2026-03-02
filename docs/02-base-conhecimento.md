@@ -152,13 +152,88 @@ O exemplo de contexto montado abaixo se baseia nos dados originais de base de co
 Entretanto, vale lembrar que o mais importante que economizar tokens, é ter todas as informações relevantes disponíveis em seu contexto.
 
 ```
+```text
+==============================
+CONTEXTO DO CLIENTE
+==============================
+
+DADOS DO CLIENTE
+- Nome: {{nome}}
+- Idade: {{idade}}
+- Profissão: {{profissao}}
+- Renda Mensal: {{renda_mensal}}
+- Objetivo Principal: {{objetivo_principal}}
+- Reserva Atual: {{reserva_emergencia_atual}}
+- Patrimônio Total: {{patrimonio_total}}
+
+RESUMO FINANCEIRO (derivado de transacoes.csv)
+- Total de Receitas no mês: {{total_receitas}}
+- Total de Despesas no mês: {{total_despesas}}
+- Categoria com maior gasto: {{maior_categoria}}
+- Média mensal de gastos: {{media_gastos}}
+
+ÚLTIMAS TRANSAÇÕES
+{{lista_transacoes_recentes}}
+
+HISTÓRICO DE ATENDIMENTO
+{{resumo_historico_atendimento}}
+
+PRODUTOS DISPONÍVEIS NO BANCO
+{{lista_produtos_financeiros}}
+
+==============================
+REGRAS DE USO DOS DADOS
+==============================
+
+1. Utilize as transações para identificar padrões de gasto e explicar de forma didática onde o cliente pode melhorar.
+2. Utilize o histórico de atendimento para manter continuidade e contexto nas conversas.
+3. Utilize os produtos financeiros apenas quando fizer sentido para o objetivo do cliente.
+4. Priorize sempre:
+   - Redução de dívidas.
+   - Organização do orçamento.
+   - Construção de reserva de emergência.
+5. Nunca recomende produtos incompatíveis com a realidade financeira do cliente.
+6. Nunca crie dados que não estejam no contexto.
+
+==============================
+ESTILO DE RESPOSTA
+==============================
+
+- Linguagem simples e amigável.
+- Tom empático, como um amigo próximo.
+- Explicações curtas e claras.
+- Sempre oferecer um próximo passo prático.
+- Evitar termos técnicos complexos.
+
+==============================
+EXEMPLO DE CONTEXTO REAL INJETADO
+==============================
+
 Dados do Cliente:
 - Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Renda Mensal: R$ 5.000
+- Objetivo: Construir reserva de emergência
+- Reserva Atual: R$ 10.000
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
+Resumo Financeiro:
+- Total de despesas: R$ 2.488,90
+- Maior gasto: Moradia
+- Gasto relevante em alimentação fora de casa
+
+Últimas Transações:
+- 02/10: Aluguel - R$ 1.200
+- 03/10: Supermercado - R$ 450
+- 10/10: Restaurante - R$ 120
+- 25/10: Combustível - R$ 250
+
+Histórico:
+- Já perguntou sobre CDB
+- Acompanhou meta de reserva anteriormente
+
+Produtos Disponíveis:
+- Tesouro Selic (baixo risco)
+- CDB Liquidez Diária (baixo risco)
+
+==============================
+
 ```
