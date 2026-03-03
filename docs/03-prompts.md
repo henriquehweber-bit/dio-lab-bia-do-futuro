@@ -389,5 +389,4 @@ Posso te mostrar o valor exato antes de confirmar a operação.]
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Foi necessário inserir mais algumas regras dentro do agente visto algumas inconsistências nas respostas. As regras inseridas foram referentes a segurança da informação, tratamento de situações sensíveis e limitações regulatórias.
