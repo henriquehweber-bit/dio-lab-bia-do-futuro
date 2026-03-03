@@ -390,3 +390,4 @@ Posso te mostrar o valor exato antes de confirmar a operação.]
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
 - Foi necessário inserir mais algumas regras dentro do agente visto algumas inconsistências nas respostas. As regras inseridas foram referentes a segurança da informação, tratamento de situações sensíveis e limitações regulatórias.
+- O prompt foi testado em dois modelos de LLM diferentes (Chat GPT e Gemini) onde com testes de esforço, com pergunta (entradas) tanto dentro do prompt quanto fora do prompt, o agente demonstrou comportamento adequado. Contudo ao pedir para o modelo de LLM avaliar o system prompt, foram sugeridos os ajustes a fim de evitar confusões no julgamento e interpretação do agente.
