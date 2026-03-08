@@ -76,7 +76,7 @@ http://localhost:8501
 <img width="1053" height="660" alt="AMIF_Assistente_Virtual_Rodando" src="https://github.com/user-attachments/assets/8f63edc6-aba7-4f07-99d8-cd7df35aef2a" />
 
 
-##Funcionalidades do Assistente
+## Funcionalidades do Assistente
 O agente AMIF é capaz de:
  - analisar o perfil financeiro do cliente
  - interpretar histórico de transações
@@ -89,7 +89,7 @@ Tudo respeitando regras de:
  - conformidade regulatória
  - transparência financeira
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
  - Python
  - Streamlit
  - Ollama
