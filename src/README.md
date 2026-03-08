@@ -27,14 +27,10 @@ Lab_DIO_BIA_Futuro/
 app.py
 
 Aplicação principal que:
-
-carrega os dados do cliente
-
-constrói o contexto financeiro
-
-envia o prompt para o modelo
-
-renderiza a interface conversacional
+ - carrega os dados do cliente
+ - constrói o contexto financeiro
+ - envia o prompt para o modelo
+ - renderiza a interface conversacional
 
 data/
 
